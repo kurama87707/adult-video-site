@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="twitter:card" content="player">
+    <meta name="twitter:title" content="🔥 Hot Video - Watch Now!">
+    <meta name="twitter:description" content="Click to watch this exclusive video!">
+    <meta name="twitter:player" content="https://yourwebsite.com/video.html">
+    <meta name="twitter:player:width" content="640">
+    <meta name="twitter:player:height" content="360">
+    <meta name="twitter:image" content="https://yourwebsite.com/preview.jpg">
+    <title>Adult Video Player</title>
+    <style>
+        body { margin: 0; background: black; text-align: center; }
+        video { width: 100vw; height: auto; max-height: 100vh; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop onclick="redirectToAd()">
+        <source src="https://yourwebsite.com/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <script>
+        function redirectToAd() {
+            window.location.href = "https://www.adsterra.com/your-ad-link";
+        }
+    </script>
+</body>
+</html>
